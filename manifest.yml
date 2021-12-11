@@ -1,0 +1,10 @@
+---
+applications:
+- name: mod-standards-frontpage
+  path: build/
+  instances: 1
+  memory: 256M
+  buildpacks:
+  - staticfile_buildpack
+  routes:
+  - route: mod-standards-frontpage.apps.internal

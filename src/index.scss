@@ -1,0 +1,15 @@
+$govuk-global-styles: true;
+$govuk-new-link-styles: true;
+$govuk-assets-path: '~govuk-frontend/govuk/assets/';
+$govuk-font-family: 'Helvetica', 'Arial', sans-serif;
+@import 'node_modules/govuk-frontend/govuk/all';
+
+@if not($govuk-new-link-styles) {
+  @error "Property #{govuk-new-link-styles} not";
+}
+
+body {
+  @extend .govuk-body;
+  margin: 0;
+  padding: 0;
+}

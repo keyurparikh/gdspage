@@ -1,0 +1,39 @@
+// $govuk-assets-path: '~govuk-frontend/govuk/assets/';
+// @import 'node_modules/govuk-frontend/govuk/all';
+
+@import '../index.scss';
+
+.title-text {
+  color: inherit;
+  margin: 0;
+  color: #fff !important;
+}
+
+.top-intro {
+  font-size: 1.1875rem;
+  line-height: 1.315rem;
+  margin-bottom: 20px;
+  color: #fff !important;
+}
+.stand-out {
+  font-weight: bold;
+}
+
+.home-services {
+  .heading {
+    font-size: 1.1875rem;
+    line-height: 1.3157894737;
+  }
+
+  .para {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+.divider {
+  margin: 30px 0 15px;
+  clear: both;
+  border: 5px solid #0b0c0c;
+  border-width: 5px 0 0;
+}

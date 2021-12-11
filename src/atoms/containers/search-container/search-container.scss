@@ -1,0 +1,36 @@
+.search-container {
+  overflow: hidden;
+  background: #1d70b8;
+  color: #fff;
+}
+
+.top-links {
+  position: relative;
+  z-index: 1;
+  margin-top: 5px;
+  padding: 15px 20px 20px 20px;
+  background: #0b0c0c;
+  .title {
+    font-size: 1.1875rem;
+    line-height: 1.3157894737;
+    font-family: 'GDS Transport', arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  a {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 0;
+    bottom: -100px;
+    width: 100%;
+    background: #0b0c0c;
+  }
+}
